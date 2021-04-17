@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_viewStd">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_profileDrawer"
+            android:icon="@drawable/iconuser"
+            android:title="@string/profile"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_classDrawer"
+            android:icon="@drawable/iconclass"
+            android:title="@string/clas"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_libraryDrawer"
+            android:icon="@drawable/iconlibrary"
+            android:title="@string/library"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+        <item
+            android:id="@+id/menu_examDrawer"
+            android:icon="@drawable/iconexam"
+            android:title="@string/examination"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_hostelDrawer"
+            android:icon="@drawable/iconhostel"
+            android:title="@string/hostel"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+        <item
+            android:id="@+id/menu_transportDrawer"
+            android:icon="@drawable/icontransport"
+            android:title="@string/transport"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_feesDrawer"
+            android:icon="@drawable/iconfee"
+            android:title="@string/payment"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_gradeDrawer"
+            android:icon="@drawable/icongrade"
+            android:title="@string/grade"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_logoutDrawer"
+            android:icon="@drawable/iconlogout"
+            android:title="@string/logout"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/experience"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/school"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

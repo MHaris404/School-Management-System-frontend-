@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/mainview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/subheadingSize">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/staff_admin_hostel_cardView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/subheadingSize"
+                    app:cardCornerRadius="7dp"
+                    app:cardElevation="7dp"
+                    app:cardMaxElevation="6dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:paddingEnd="@dimen/edt_textSize">
+
+                            <LinearLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:padding="@dimen/headingBottomMargin">
+
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@drawable/iconclass"
+                                    android:tint="@color/colorPrimary" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:orientation="vertical"
+                                android:paddingVertical="@dimen/activity_marginsmallest">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:gravity="center_vertical"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginBottom="4dp"
+                                        android:layout_weight="1"
+                                        android:text="Hostel Name jg hghjghjghjghhhghj"
+                                        android:textColor="@color/colorPrimaryDark"
+                                        android:textSize="@dimen/subheadingSize" />
+
+                                    <LinearLayout
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="start"
+                                        android:layout_marginEnd="@dimen/activity_marginsmallest"
+                                        android:layout_weight="1"
+                                        android:gravity="end">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginRight="@dimen/activity_marginsmallest"
+                                            android:text="Capacity Remaining:"
+                                            android:textColor="@color/colorAccent"
+                                            android:textSize="@dimen/imgcircle_margin" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="12"
+                                            android:textColor="@color/colorAccent"
+                                            android:textSize="@dimen/imgcircle_margin" />
+
+                                    </LinearLayout>
+
+                                    <Button
+                                        android:id="@+id/staff_admin_hostel_btnMore"
+                                        android:layout_width="20dp"
+                                        android:layout_height="20dp"
+                                        android:background="@drawable/iconarrowdown"
+                                        android:backgroundTint="@color/colorPrimaryDark" />
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginRight="@dimen/activity_marginsmallest"
+                                        android:text="Address:"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="@dimen/imgcircle_margin" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:inputType="textMultiLine"
+                                        android:text="University Road, karachi, dasdsdas ddadsa dsadsda sadsad"
+                                        android:textColor="@color/colorAccent"
+                                        android:textSize="@dimen/imgcircle_margin" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/staff_admin_hostel_expendedView"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:visibility="gone">
+
+                            <LinearLayout
+                                android:layout_width="7dp"
+                                android:layout_height="match_parent"
+                                android:background="@color/colorPrimary" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content">
+
+                                <Button
+                                    android:id="@+id/staff_admin_hostel_btnStdEnrolled"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/activity_marginSmall"
+                                    android:layout_marginBottom="@dimen/activity_marginsmallest"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/loginbutton_selector_blue"
+                                    android:inputType="textCapWords"
+                                    android:padding="3dp"
+                                    android:text="More"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold" />
+
+                                <Button
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="@dimen/activity_marginSmall"
+                                    android:layout_marginEnd="@dimen/edt_textSize"
+                                    android:layout_marginBottom="@dimen/activity_marginsmallest"
+                                    android:layout_weight="1"
+                                    android:background="@drawable/loginbutton_selector_red"
+                                    android:inputType="textCapWords"
+                                    android:padding="3dp"
+                                    android:text="Edit"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="17sp"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FAB_admin_hostelCampusAdder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_margin"
+        android:layout_marginBottom="@dimen/activity_margin"
+        android:clickable="true"
+        app:layout_anchor="@id/mainview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/iconplus" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

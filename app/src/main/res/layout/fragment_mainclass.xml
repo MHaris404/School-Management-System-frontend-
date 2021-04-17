@@ -1,0 +1,595 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/activity_marginSmall">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="@dimen/activity_marginSmall">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Classmates"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/headingSize"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Total:"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/edt_textSize"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/activity_marginSmall"
+                        android:text="23"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/edt_textSize"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="@dimen/activity_marginSmall">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="280px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="10dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorPrimaryDark"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="@dimen/subheadingSize"
+                                android:paddingTop="@dimen/subheadingSize"
+                                android:paddingBottom="@dimen/activity_marginSmall">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="140px"
+                                    android:layout_height="140px"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:src="@drawable/img1"
+                                    app:civ_border_color="@color/colorWhite"
+                                    app:civ_border_width="0dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Faizan Tahir"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/edt_textSize"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2017-Cs-108"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/activity_marginSmall"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="280px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="10dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorPrimaryDark"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="@dimen/subheadingSize"
+                                android:paddingTop="@dimen/subheadingSize"
+                                android:paddingBottom="@dimen/activity_marginSmall">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="140px"
+                                    android:layout_height="140px"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:src="@drawable/img1"
+                                    app:civ_border_color="@color/colorWhite"
+                                    app:civ_border_width="0dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Faizan Tahir"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/edt_textSize"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2017-Cs-108"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/activity_marginSmall"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="280px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="10dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorPrimaryDark"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="@dimen/subheadingSize"
+                                android:paddingTop="@dimen/subheadingSize"
+                                android:paddingBottom="@dimen/activity_marginSmall">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="140px"
+                                    android:layout_height="140px"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:src="@drawable/img1"
+                                    app:civ_border_color="@color/colorWhite"
+                                    app:civ_border_width="0dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Faizan Tahir"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/edt_textSize"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2017-Cs-108"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/activity_marginSmall"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="280px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="10dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorPrimaryDark"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="@dimen/subheadingSize"
+                                android:paddingTop="@dimen/subheadingSize"
+                                android:paddingBottom="@dimen/activity_marginSmall">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="140px"
+                                    android:layout_height="140px"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:src="@drawable/img1"
+                                    app:civ_border_color="@color/colorWhite"
+                                    app:civ_border_width="0dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Faizan Tahir"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/edt_textSize"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2017-Cs-108"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/activity_marginSmall"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="280px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="10dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorPrimaryDark"
+                                android:orientation="vertical"
+                                android:paddingHorizontal="@dimen/subheadingSize"
+                                android:paddingTop="@dimen/subheadingSize"
+                                android:paddingBottom="@dimen/activity_marginSmall">
+
+                                <de.hdodenhof.circleimageview.CircleImageView
+                                    android:layout_width="140px"
+                                    android:layout_height="140px"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:src="@drawable/img1"
+                                    app:civ_border_color="@color/colorWhite"
+                                    app:civ_border_width="0dp" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Faizan Tahir"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/edt_textSize"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="2017-Cs-108"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/activity_marginSmall"
+                                    android:textStyle="bold" />
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/activity_marginSmall">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/subject"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="@dimen/headingSize"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/course_completed"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="@dimen/edt_textSize"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/activity_marginSmall"
+                        android:text="23%"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="@dimen/edt_textSize"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fillViewport="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingVertical="@dimen/activity_marginSmall">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="400px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="20dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorYellow"
+                                android:orientation="vertical"
+                                android:padding="@dimen/subheadingSize">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="400px"
+                                    android:layout_marginBottom="@dimen/activity_marginSmall"
+                                    android:scaleType="fitStart"
+                                    android:src="@drawable/iconattendance" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bussiness Management"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/headingSize"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:text="by Talal Hussain"
+                                    android:textColor="@color/colorAccentLight"
+                                    android:textSize="@dimen/subheadingSize"
+                                    android:textStyle="bold" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/opacity_rounded_layout"
+                                    android:padding="@dimen/fieldBottomMargin">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/subheadingBottomMargin"
+                                        android:text="12 lessons"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="@dimen/subheadingSize"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="400px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="20dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorGreen"
+                                android:orientation="vertical"
+                                android:padding="@dimen/subheadingSize">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="400px"
+                                    android:layout_marginBottom="@dimen/activity_marginSmall"
+                                    android:scaleType="fitStart"
+                                    android:src="@drawable/iconattendance" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bussiness Management"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/headingSize"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:text="by Talal Hussain"
+                                    android:textColor="@color/colorAccentLight"
+                                    android:textSize="@dimen/subheadingSize"
+                                    android:textStyle="bold" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/opacity_rounded_layout"
+                                    android:padding="@dimen/fieldBottomMargin">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/subheadingBottomMargin"
+                                        android:text="12 lessons"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="@dimen/subheadingSize"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="400px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="20dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorPrimaryDark"
+                                android:orientation="vertical"
+                                android:padding="@dimen/subheadingSize">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="400px"
+                                    android:layout_marginBottom="@dimen/activity_marginSmall"
+                                    android:scaleType="fitStart"
+                                    android:src="@drawable/iconattendance" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bussiness Management"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/headingSize"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:text="by Talal Hussain"
+                                    android:textColor="@color/colorAccentLight"
+                                    android:textSize="@dimen/subheadingSize"
+                                    android:textStyle="bold" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/opacity_rounded_layout"
+                                    android:padding="@dimen/fieldBottomMargin">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/subheadingBottomMargin"
+                                        android:text="12 lessons"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="@dimen/subheadingSize"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="400px"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="@dimen/activity_marginSmall"
+                            app:cardCornerRadius="20dp"
+                            app:cardMaxElevation="6dp">
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:background="@color/colorPrimary"
+                                android:orientation="vertical"
+                                android:padding="@dimen/subheadingSize">
+
+                                <ImageView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="400px"
+                                    android:layout_marginBottom="@dimen/activity_marginSmall"
+                                    android:scaleType="fitStart"
+                                    android:src="@drawable/iconattendance" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="Bussiness Management"
+                                    android:textColor="@color/colorWhite"
+                                    android:textSize="@dimen/headingSize"
+                                    android:textStyle="bold" />
+
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/activity_margin"
+                                    android:text="by Talal Hussain"
+                                    android:textColor="@color/colorAccentLight"
+                                    android:textSize="@dimen/subheadingSize"
+                                    android:textStyle="bold" />
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:background="@drawable/opacity_rounded_layout"
+                                    android:padding="@dimen/fieldBottomMargin">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="@dimen/subheadingBottomMargin"
+                                        android:text="12 lessons"
+                                        android:textColor="@color/colorWhite"
+                                        android:textSize="@dimen/subheadingSize"
+                                        android:textStyle="bold" />
+
+                                </LinearLayout>
+
+                            </LinearLayout>
+                        </androidx.cardview.widget.CardView>
+
+                    </LinearLayout>
+
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

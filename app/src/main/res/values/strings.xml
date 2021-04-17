@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">AssetSMS</string>
+    <string name="whoamI">Who am I?</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="email">Email Id</string>
+    <string name="passowrd">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="show_pwd">Show Password</string>
+    <string name="hide_pwd">Hide Password</string>
+    <string name="forgot">Forgot password?</string>
+    <string name="closebutton">Close Button for Activity</string>
+    <string name="newUser">Not a Member yet? Sign Up here.</string>
+    <string name="fullName">Full Name</string>
+    <string name="mobileNumber">Mobile Number</string>
+    <string name="location">Location</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="terms_conditions">By clicking SignUp you agree all the Terms and Conditions.</string>
+    <string name="signUp">SIGN UP</string>
+    <string name="already_user">Already have Account? Login here.</string>
+    <string name="registered_emailid">Please enter your Registered Email Id below:</string>
+    <string name="submit">SUBMIT</string>
+    <string name="back">BACK</string>
+    <string name="loginid">Login id</string>
+    <string name="personal_details">Personal Details</string>
+    <string name="first_name">First Name</string>
+    <string name="full_name">Full Name</string>
+    <string name="occupation">Occupation</string>
+    <string name="parent_address">Parent Address</string>
+    <string name="contact_1">Contact #1</string>
+    <string name="contact_2">Contact #2</string>
+    <string name="religion">Religion</string>
+    <string name="contact_1_1">Contact #1 + 1</string>
+    <string name="next">NEXT</string>
+    <string name="last_name">Last Name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="student_address">Student Address</string>
+    <string name="gender">Gender</string>
+    <string name="academic_history">Academic History</string>
+    <string name="previous_institute_title">Previous Institute Title</string>
+    <string name="previous_institute_contact">Previous Institute Contact</string>
+    <string name="class_grade_applying_for">Class/Grade Applying for</string>
+    <string name="character_reset">Character Reset</string>
+    <string name="staff_address">Staff Address</string>
+    <string name="academic_profile">Academic Profile</string>
+    <string name="qualification">Qualification</string>
+    <string name="experience_in_field">Experience in field</string>
+    <string name="driver_address">Driver Address</string>
+    <string name="expected_postion">Expected Postion</string>
+    <string name="title_of_position">Title of Position</string>
+    <string name="refresh">refresh</string>
+    <string name="stop">stop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="timetable">Timetable</string>
+    <string name="attendance">Attendance</string>
+    <string name="profile">Profile</string>
+    <string name="subject">Subject</string>
+    <string name="clas">Class</string>
+    <string name="library">Library</string>
+    <string name="examination">Examination</string>
+    <string name="hostel">Hostel</string>
+    <string name="transport">Transport</string>
+    <string name="payment">Payment</string>
+    <string name="logout">Logout</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="class_teacher">Class Teacher</string>
+    <string name="request_issuance">Request Issuance</string>
+    <string name="course_completed">Course Completed :</string>
+
+
+    //get the fuck away
+    <string name="google_maps_key">AIzaSyAyDFSvQ-5Xt8w2WtVMPnwSieMsFVE_HM4</string>
+    <string name="grade">Academic Record</string>
+    <string name="sessionals">Sessional</string>
+
+    <array name="week_days">
+        <item>M</item>
+        <item>T</item>
+        <item>W</item>
+        <item>T</item>
+        <item>F</item>
+        <item>S</item>
+        <item>S</item>
+    </array>
+    <array name="week_days_extended">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </array>
+    <string name="error_alarm_days_min_days">At least 1 day must be selected</string>
+</resources>

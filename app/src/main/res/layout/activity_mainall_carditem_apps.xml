@@ -1,0 +1,116 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/activity_marginSmall"
+    android:layout_marginTop="@dimen/activity_marginSmall"
+    android:padding="@dimen/activity_marginSmall">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/headingSizeFull"
+            android:layout_height="match_parent"
+            android:background="@color/colorGreen"
+            android:gravity="center"
+            android:padding="@dimen/activity_marginSmall">
+
+            <TextView
+                android:id="@+id/serialNo_cardAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/subheadingSize" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="@dimen/headingSizeFull"
+            android:layout_height="match_parent"
+            android:layout_marginStart="@dimen/activity_marginSmall"
+            android:layout_marginEnd="@dimen/activity_marginSmall"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:padding="@dimen/activity_marginSmall">
+
+            <TextView
+                android:id="@+id/serialNo_cardAll_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="S"
+                android:textColor="@color/white"
+                android:textSize="@dimen/subheadingSize" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingVertical="@dimen/activity_marginSmall">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muhammad Haris"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/activity_marginSmall"
+                    android:text="Category:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/activity_marginSmall" />
+
+                <TextView
+                    android:id="@+id/tv_version"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Student"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/activity_marginSmall" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/activity_marginSmall"
+                    android:text="Expected:"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/activity_marginSmall" />
+
+                <TextView
+                    android:id="@+id/tv_api_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/activity_marginSmall" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:orientation="vertical"
+            android:paddingLeft="14dp"
+            android:paddingTop="14dp"
+            android:paddingRight="14dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="@string/full_name"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/name"
+                android:drawableLeft="@drawable/name"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:importantForAutofill="auto"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/edt_textSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+            ////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="National Identity Card Number"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/passport"
+                android:drawableLeft="@drawable/passport"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:importantForAutofill="auto"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/edt_textSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+            ////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="@string/occupation"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/engineers"
+                android:drawableLeft="@drawable/engineers"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:importantForAutofill="auto"
+                android:inputType="textCapCharacters"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/edt_textSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+            ////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="@string/parent_address"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/address"
+                android:drawableLeft="@drawable/address"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:importantForAutofill="auto"
+                android:inputType="textPostalAddress"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/edt_textSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+            ////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="@string/contact_1_1"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="3dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/phone2"
+                    android:drawableLeft="@drawable/phone2"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:importantForAutofill="auto"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/edt_textSize" />
+
+                <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:drawableStart="@drawable/phone1"
+                    android:drawableLeft="@drawable/phone1"
+                    android:drawablePadding="8dp"
+                    android:gravity="center_vertical"
+                    android:importantForAutofill="auto"
+                    android:inputType="phone"
+                    android:padding="10dp"
+                    android:singleLine="true"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/edt_textSize" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+
+            ////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="@string/email"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/email"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:importantForAutofill="auto"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/edt_textSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+            ////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="@string/religion"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/religion"
+                android:drawableLeft="@drawable/religion"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:importantForAutofill="auto"
+                android:inputType="textCapWords"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/edt_textSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+            ////
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:text="Number of Children"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="@dimen/subheadingSize" />
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:drawableStart="@drawable/number"
+                android:drawableLeft="@drawable/number"
+                android:drawablePadding="8dp"
+                android:gravity="center_vertical"
+                android:importantForAutofill="auto"
+                android:inputType="numberDecimal"
+                android:padding="10dp"
+                android:singleLine="true"
+                android:textColor="@color/colorAccent"
+                android:textSize="@dimen/edt_textSize" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1px"
+                android:layout_marginBottom="@dimen/fieldBottomMargin"
+                android:background="@color/colorAccent" />
+            ////
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/subheadingBottomMargin"
+                android:background="@drawable/loginbutton_selector_blue"
+                android:drawablePadding="0dp"
+                android:padding="3dp"
+                android:text="@string/next"
+                android:textColor="@color/colorWhite"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

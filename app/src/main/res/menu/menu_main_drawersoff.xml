@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_viewPrt">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/menu_mainStaffOverall_Drawer"
+            android:checked="true"
+            android:icon="@drawable/iconoverview"
+            android:title="Overview"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffProfile_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconuser"
+            android:title="Profile"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffApp_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconmail"
+            android:title="Applications"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffAtt_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconattendance"
+            android:title="Attendance"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffSubj_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconopen_book"
+            android:title="Subject"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffBook_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconbook"
+            android:title="Book"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffLibrary_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconlibrary"
+            android:title="Library"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffRoom_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconclass2"
+            android:title="Room"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffGrade_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconclass"
+            android:title="Grade"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffDriver_Drawer"
+            android:checked="false"
+            android:icon="@drawable/icontransport"
+            android:title="Driver"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffHostel_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconhostel"
+            android:title="Hostel"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffEnrollment_Drawer"
+            android:checked="false"
+            android:icon="@drawable/iconplus2"
+            android:title="Enrollment"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStaffTimeTable_Drawer"
+            android:checked="false"
+            android:icon="@drawable/icontimetable"
+            android:title="TimeTable"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+
+        <item
+            android:id="@+id/menu_mainStafflogout_Drawer"
+            android:icon="@drawable/iconlogout"
+            android:title="@string/logout"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/colorPrimaryDark" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/experience"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/school"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>

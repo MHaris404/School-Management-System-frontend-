@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.assetssm">
+    <!-- permissions -->
+    <!-- google maps -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activity_Driver" />
+        <activity android:name=".Activity_Staff" />
+        <activity android:name=".Activity_Parent" />
+        <activity android:name=".Activity_Student" />
+        <activity android:name=".Activity_login" />
+        <activity android:name=".Activity_charGuide">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity_mainOfficerList"
+            android:parentActivityName=".Activity_Staff" />
+        <activity
+            android:name=".Activity_mainOfficerList_cardProfile"
+            android:parentActivityName=".Activity_mainOfficerList" />
+        <activity
+            android:name=".Activity_mainOfficerList_cardProfile_more"
+            android:parentActivityName=".Activity_mainOfficerList_cardProfile" />
+        <activity
+            android:name=".Activity_mainProfileStaffAdmin_general"
+            android:parentActivityName=".Activity_Staff" />
+
+
+        <!-- maps -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+    </application>
+
+</manifest>

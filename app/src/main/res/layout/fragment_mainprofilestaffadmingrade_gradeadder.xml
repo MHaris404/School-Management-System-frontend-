@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingTop="14dp"
+        android:paddingRight="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/subheadingBottomMargin"
+            android:text="Grade"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/subheadingSize" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="4dp"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/name"
+            android:drawableLeft="@drawable/name"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:importantForAutofill="auto"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/edt_textSize" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginBottom="@dimen/fieldBottomMargin"
+            android:background="@color/colorAccent" />
+        ////
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/subheadingBottomMargin"
+            android:text="Section"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/subheadingSize" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/calendar"
+            android:drawableLeft="@drawable/calendar"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:importantForAutofill="auto"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/edt_textSize" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:layout_marginBottom="@dimen/fieldBottomMargin"
+            android:background="@color/colorAccent" />
+        ////
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/subheadingBottomMargin"
+            android:text="Room #"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/subheadingSize" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:drawableStart="@drawable/qualification"
+            android:drawableLeft="@drawable/qualification"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:importantForAutofill="auto"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColor="@color/colorAccent"
+            android:textSize="@dimen/edt_textSize" />
+
+
+    </LinearLayout>
+</LinearLayout>
